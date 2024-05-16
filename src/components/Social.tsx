@@ -1,7 +1,7 @@
-import FacebookIcon from "@/svgIcons/FacebookIcon";
-import GithubIcon from "@/svgIcons/GithubIcon";
-import InstagramIcon from "@/svgIcons/InstagramIcon";
-import LinkedinIcon from "@/svgIcons/LinkedinIcon";
+import FacebookIcon from "@/components/svgIcons/FacebookIcon";
+import GithubIcon from "@/components/svgIcons/GithubIcon";
+import InstagramIcon from "@/components/svgIcons/InstagramIcon";
+import LinkedinIcon from "@/components/svgIcons/LinkedinIcon";
 import React from "react";
 
 type Props = {};

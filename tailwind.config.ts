@@ -8,8 +8,8 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      primary: 'Playfair Display',
-      secondary: 'Mulish',
+      primary: ['var(--font-playfair-display)'],
+      secondary: ['var(--font-mulish)'],
     },
     screens: {
       sm: '640px',

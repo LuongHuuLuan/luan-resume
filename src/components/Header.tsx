@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import HLLogo from "@/svgIcons/HLlogoIcon";
-import { playfairDisplay } from "@/fonts";
+import HLLogo from "@/components/svgIcons/HLlogoIcon";
 import Social from "./Social";
 import MobileNav from "./MobileNav";
 
@@ -9,11 +8,14 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <header className="bg-pink-200 fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center justify-between">
+    <header className="fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center justify-between">
       <a href={"/"} className="flex justify-center items-center gap-2">
         <HLLogo width={50} height={50} />
-        <p className={`${playfairDisplay.className} font-semibold text-2xl`}>
+        {/* <p className={`${playfairDisplay.className} font-semibold text-2xl`}>
           Huu Luan Luong
+        </p> */}
+        <p className={`font-semibold text-2xl`}>
+          Micheal Alin
         </p>
       </a>
       {/* show on desktop mode */}

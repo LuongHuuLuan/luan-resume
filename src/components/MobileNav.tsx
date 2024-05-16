@@ -1,7 +1,6 @@
 "use client";
-import { playfairDisplay } from "@/fonts";
-import CloseIcon from "@/svgIcons/CloseIcon";
-import MenuAltIcon from "@/svgIcons/MenuAltIcon";
+import CloseIcon from "@/components/svgIcons/CloseIcon";
+import MenuAltIcon from "@/components/svgIcons/MenuAltIcon";
 import Link from "next/link";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
@@ -23,7 +22,7 @@ const menuVariants = {
 export default function MobileNav({}: Props) {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className={`${playfairDisplay.className} xl:hidden`}>
+    <nav className={`xl:hidden`}>
       <div className="text-3xl cursor-pointer" onClick={() => setOpenMenu(true)}>
         <MenuAltIcon width={40} height={40} />
       </div>
