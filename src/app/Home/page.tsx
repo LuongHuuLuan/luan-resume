@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import WomanImg from "@/images/me-home.jpg";
+import MePhoto from "@/images/me-home.jpg";
 import { motion } from "framer-motion";
 import { transition1 } from "@/app/transition";
 
@@ -45,7 +45,7 @@ export default function Home({}: Props) {
               transition={transition1}
             >
               <motion.img
-                src={WomanImg.src}
+                src={MePhoto.src}
                 alt="woman-img"
                 whileHover={{ scale: 1.1 }}
                 transition={transition1}

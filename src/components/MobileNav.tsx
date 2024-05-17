@@ -23,7 +23,10 @@ export default function MobileNav({}: Props) {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <nav className={`xl:hidden`}>
-      <div className="text-3xl cursor-pointer" onClick={() => setOpenMenu(true)}>
+      <div
+        className="text-3xl cursor-pointer"
+        onClick={() => setOpenMenu(true)}
+      >
         <MenuAltIcon width={40} height={40} />
       </div>
       <motion.div
@@ -41,7 +44,7 @@ export default function MobileNav({}: Props) {
         <ul className="h-full flex flex-col justify-center items-center gap-y-8 font-bold text-primary text-3xl">
           <li>
             <Link
-              href={"/Home"}
+              href={"/home"}
               className="text-[#696c6d] hover:text-primary transition"
             >
               Home
@@ -49,7 +52,7 @@ export default function MobileNav({}: Props) {
           </li>
           <li>
             <Link
-              href={"/About"}
+              href={"/about"}
               className="text-[#696c6d] hover:text-primary transition"
             >
               About
@@ -57,7 +60,15 @@ export default function MobileNav({}: Props) {
           </li>
           <li>
             <Link
-              href={"/Contact"}
+              href={"/blog"}
+              className="text-[#696c6d] hover:text-primary transition"
+            >
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={"/contact"}
               className="text-[#696c6d] hover:text-primary transition"
             >
               Contact
@@ -65,7 +76,7 @@ export default function MobileNav({}: Props) {
           </li>
           <li>
             <Link
-              href={"/Portfolio"}
+              href={"/portfolio"}
               className="text-[#696c6d] hover:text-primary transition"
             >
               Portfolio
