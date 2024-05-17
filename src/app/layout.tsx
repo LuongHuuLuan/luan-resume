@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import { Mulish, Playfair_Display } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Micheal Alin",
+  title: "Huu Luan Luong",
   description: "Web developer",
 };
 

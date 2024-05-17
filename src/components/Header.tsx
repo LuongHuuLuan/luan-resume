@@ -15,7 +15,7 @@ export default function Header({}: Props) {
           Huu Luan Luong
         </p> */}
         <p className={`font-semibold text-2xl`}>
-          Micheal Alin
+          Huu Luan Luong
         </p>
       </a>
       {/* show on desktop mode */}
