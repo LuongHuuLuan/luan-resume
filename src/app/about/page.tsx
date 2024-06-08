@@ -10,7 +10,7 @@ type Props = {};
 export default function About({}: Props) {
   return (
     <motion.section
-      className="section"
+      className="section overflow-hidden"
       initial={{ opacity: 0, y: "100%" }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: "100%" }}
@@ -19,7 +19,7 @@ export default function About({}: Props) {
       <div className="container mx-auto h-full relative">
         <div className="flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16">
           {/* image */}
-          <div className="w-full bg-[#eeeefa] flex items-end flex-1 max-h-max lg:mt-0 lg:max-h-max order-2 lg:order-none overflow-hidden">
+          <div className="hidden md:block w-full bg-[#eeeefa] flex items-end flex-1 max-h-max lg:mt-0 lg:max-h-max order-2 lg:order-none overflow-hidden">
             <img
               src={MePhoto.src}
               alt="me-pic"

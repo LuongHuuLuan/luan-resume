@@ -1,14 +1,20 @@
+"use client"
 import Link from "next/link";
 import React from "react";
 import HLLogo from "@/components/svgIcons/HLlogoIcon";
 import Social from "./Social";
 import MobileNav from "./MobileNav";
-
+import { usePathname } from "next/navigation";
 type Props = {};
 
 export default function Header({}: Props) {
+  const pathname = usePathname();
+  const isPortfolioPage = pathname === "/portfolio";
+  console.log(pathname)
+
+
   return (
-    <header className="fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center justify-between">
+    <header className={`fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center justify-between ${isPortfolioPage ? 'bg-white' : ''}`}>
       <a href={"/"} className="flex justify-center items-center gap-2">
         <HLLogo width={50} height={50} />
         <p className={`font-semibold text-2xl`}>

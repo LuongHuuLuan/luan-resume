@@ -10,7 +10,7 @@ type Props = {};
 export default function Home({}: Props) {
   return (
     <motion.section
-      className="section"
+      className="section overflow-hidden"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
