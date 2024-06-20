@@ -10,7 +10,6 @@ type Props = {};
 export default function Header({}: Props) {
   const pathname = usePathname();
   const isPortfolioPage = pathname === "/portfolio";
-  console.log(pathname)
 
 
   return (

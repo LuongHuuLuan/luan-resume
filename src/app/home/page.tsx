@@ -31,7 +31,7 @@ export default function Home({}: Props) {
             <p className="text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12">
               Thu Duc, Ho Chi Minh city
             </p>
-            <Link href={"/Contact"} className="btn mb-[30px]">
+            <Link href={"/contact"} className="btn mb-[30px]">
               Hire me
             </Link>
           </motion.div>

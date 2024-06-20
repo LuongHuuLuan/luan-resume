@@ -19,7 +19,7 @@ export default function Portfolio({}: Props) {
       <div className="container mx-auto h-full relative">
         <div className="justify-center items-center h-full">
           {/* text */}
-          <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 absolute top-[140px]">
+          <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 absolute top-[140px] w-full">
             
             
           <motion.div
@@ -40,7 +40,7 @@ export default function Portfolio({}: Props) {
             </motion.div>
 
             <motion.div
-            className="overflow-scroll h-[calc(100vh-50vh)] lg:h-[calc(100vh-140px)]"
+            className="overflow-y-scroll h-[calc(100vh-40vh)] lg:h-[calc(100vh-140px)]"
             initial={{ opacity: 0, y: "100%" }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "100%" }}
