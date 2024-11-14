@@ -36,12 +36,11 @@ export default function About({}: Props) {
           >
             <h1 className="h1">About me</h1>
             <p>
-              I am a passionate web developer with experience working with
-              ReactJS, Typescript, Angular, Java, ASP.NET, and various other
-              technologies. I am always seeking opportunities to develop my
-              skills and knowledge, with the goal of becoming a full-stack
-              developer. I am eager to join a positive work environment where I
-              can grow personally and contribute to the success of projects.
+              I am a web developer with over 1 year of experience in Django,
+              Django Rest Framework, and frontend technologies like HTML, CSS,
+              and JavaScript. I also have a solid background in ReactJS,
+              TypeScript, Java, and ASP.NET, aiming to become a well-rounded
+              full-stack developer.
             </p>
             <br />
             <Link href={"/portfolio"} className="btn">
