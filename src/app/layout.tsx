@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
 import { Mulish, Playfair_Display } from "next/font/google";
 
 export const metadata: Metadata = {
@@ -32,7 +31,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfairDisplay.variable} ${mulish.variable}`}>
       <body>
-        <Header />
         {children}
       </body>
     </html>

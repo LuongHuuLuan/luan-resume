@@ -9,7 +9,7 @@ type Props = {};
 export default function Social({}: Props) {
   return (
     <div className="hidden gap-x-4 xl:flex ml-24 text-[#696c6d]">
-      <a href="https://www.facebook.com/luongluan270701" target="_blank" className="cursor-pointer hover:opacity-80">
+      <a href="https://www.facebook.com/luongluanmpt" target="_blank" className="cursor-pointer hover:opacity-80">
         <FacebookIcon width={20} height={20} />
       </a>
       {/* <a href="#" target="_blank" className="cursor-pointer hover:opacity-80">

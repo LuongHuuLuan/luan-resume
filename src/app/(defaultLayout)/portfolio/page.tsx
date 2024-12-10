@@ -1,8 +1,7 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { transition1 } from "@/app/transition";
-import Link from "next/link";
 
 type Props = {};
 
