@@ -633,7 +633,7 @@ export default function Resume({}: Props) {
                 </span>
                 Maintained relationships with vendors, clients, and external
                 stakeholders, ensuring professionalism and alignment with the
-                business's values.
+                business&apos;s values.
               </li>
             </ul>
           </section>
